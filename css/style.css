@@ -408,6 +408,10 @@ a:focus {
     margin-bottom: 10px;
 }
 
+#single-project span.border {
+    font-weight: 600;
+}
+
 /*---------------------------------------
    Contact section              
 -----------------------------------------*/
