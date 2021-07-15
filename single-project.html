@@ -29,6 +29,38 @@
                 } else {
                     history.back()
                 }
+
+                // Git 주소 클릭이벤트
+                $('#woof-git-tizen').click(() => {
+                    console.log('woof-git-tizen')
+                    window.open('https://github.com/201402407/WoofWatch', '_blank')
+                })
+                $('#huha-git').click(() => {
+                    console.log('huha-git')
+                    window.open('https://github.com/201402407/2018_GlobalSW_OSDS', '_blank')
+                })
+                $('#vowow-git').click(() => {
+                    console.log('vowow-git')
+                    window.open('https://github.com/201402407/2019_EPIS_Tufu4', '_blank')
+                })
+                $('#jacksim-git-team').click(() => {
+                    console.log('jacksim-git-team')
+                    window.open('https://github.com/openhack22/JakSimForeverAndroid', '_blank')
+                })
+                $('#jacksim-git-renewal').click(() => {
+                    console.log('jacksim-git-renewal')
+                    window.open('https://github.com/201402407/JakSimForever', '_blank')
+                })
+                $('#jacksim-git-server').click(() => {
+                    console.log('jacksim-git-server')
+                    window.open('https://github.com/201402407/JakSimForeverServer', '_blank')
+                })
+                $('#lpoint-playstore').click(() => {
+                    console.log('lpoint-playstore')
+                    window.open('https://play.google.com/store/apps/details?id=com.lottemembers.android&hl=ko&gl=US', '_blank')
+                })
+                
+
             })
         </script>
     </head>
@@ -129,12 +161,12 @@
                             <p class="text-left">- Google play store에 'WooF' 앱을 출시했습니다.</p>
                         </div>
                         <div>
-                            <button class="bttn-fill bttn-md bttn-block">
-                                <i class="icon-menu">Go Github Link (Android App)</i>
-                            </button>
-                            <button class="bttn-fill bttn-md bttn-block" style="margin-top: 10px;">
+                            <button id="woof-git-tizen" class="bttn-fill bttn-md bttn-block">
                                 <i class="icon-menu">Go Github Link (Tizen App)</i>
                             </button>
+                            <!-- <button id="woof-git-tizen" class="bttn-fill bttn-md bttn-block" style="margin-top: 10px">
+                                <i class="icon-menu">Go Github Link (Tizen App)</i>
+                            </button> -->
                         </div>
                     </div>
                 </div>
@@ -192,9 +224,12 @@
                             </p>
                         </div>
                         <div>
-                            <button class="bttn-fill bttn-md center block">
-                                <i class="icon-menu">Go Github Link</i>
+                            <button id="huha-git" class="bttn-fill bttn-md bttn-block">
+                                <i class="icon-menu">Go Github Link (Android App)</i>
                             </button>
+                            <!-- <button id="woof-git-tizen" class="bttn-fill bttn-md bttn-block" style="margin-top: 10px">
+                                <i class="icon-menu">Go Github Link (Tizen App)</i>
+                            </button> -->
                         </div>
                     </div>
                 </div>
@@ -265,6 +300,14 @@
                                 예약, 내 동물 등록증 보기, 커뮤니티 등을 개발했습니다.
                             </p>
                         </div>
+                        <div>
+                            <button id="vowow-git" class="bttn-fill bttn-md bttn-block">
+                                <i class="icon-menu">Go Github Link (Android App)</i>
+                            </button>
+                            <!-- <button id="woof-git-tizen" class="bttn-fill bttn-md bttn-block" style="margin-top: 10px">
+                                <i class="icon-menu">Go Github Link (Tizen App)</i>
+                            </button> -->
+                        </div>
                     </div>
                 </div>
                 <div class="row" id="jacksim">
@@ -333,6 +376,17 @@
                                 - 사용자용 부분의 반려동물 등록제 정보 / 변경가이드, 반려동물 등록 대행업체 찾기, 등록 예약 및 예방접종 / 건강검진
                                 예약, 내 동물 등록증 보기, 커뮤니티 등을 개발했습니다.
                             </p>
+                        </div>
+                        <div>
+                            <button id="jacksim-git-team" class="bttn-fill bttn-md bttn-block">
+                                <i class="icon-menu">Go Github Link (Android App - Team)</i>
+                            </button>
+                            <button id="jacksim-git-renewal" class="bttn-fill bttn-md bttn-block" style="margin-top: 10px">
+                                <i class="icon-menu">Go Github Link (Android App - Renewal)</i>
+                            </button>
+                            <button id="jacksim-git-server" class="bttn-fill bttn-md bttn-block" style="margin-top: 10px">
+                                <i class="icon-menu">Go Github Link (Backend Server)</i>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -404,6 +458,14 @@
                                 - CI/CD 툴은 <span class="border">Jenkins</span>, 형상 관리 툴은 <span class="border">SVN</span>, 프로젝트 관리 툴은
                                 <span class="border">Jira / Wiki</span> 를 사용했습니다.
                             </p>
+                        </div>
+                        <div>
+                            <button id="lpoint-playstore" class="bttn-fill bttn-md bttn-block">
+                                <i class="icon-menu">Go Play Store</i>
+                            </button>
+                            <!-- <button id="woof-git-tizen" class="bttn-fill bttn-md bttn-block" style="margin-top: 10px">
+                                <i class="icon-menu">Go Github Link (Tizen App)</i>
+                            </button> -->
                         </div>
                     </div>
                 </div>
